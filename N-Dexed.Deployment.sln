@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Dexed.Deployment.Common", "N-Dexed.Deployment.Common\N-Dexed.Deployment.Common.csproj", "{5861691E-0DB9-42E2-AF4E-B55D903DE710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Dexed.Deployment.AWS", "N-Dexed.Deployment.AWS\N-Dexed.Deployment.AWS.csproj", "{3BE77697-40C3-46CE-B4C3-849EE7DA78CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Dexed.Deployment.Tests", "N-Dexed.Deployment.Tests\N-Dexed.Deployment.Tests.csproj", "{4E43F1F1-1C9E-45F2-9ADD-5275A499CA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Dexed.Deployment.Configuration", "N-Dexed.Deployment.Configuration\N-Dexed.Deployment.Configuration.csproj", "{B941F671-4AEE-40CA-A0FC-B702C39132F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Dexed.Deployment.Security", "N-Dexed.Deployment.Security\N-Dexed.Deployment.Security.csproj", "{0C6FCCC3-E393-44D3-A8F5-21ACF3B93B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Dexed.Deployment.RestAPI", "N-Dexed.Deployment.RestAPI\N-Dexed.Deployment.RestAPI.csproj", "{3906B3E5-44E6-41B1-9A02-5EC3E44CA5AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5861691E-0DB9-42E2-AF4E-B55D903DE710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5861691E-0DB9-42E2-AF4E-B55D903DE710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5861691E-0DB9-42E2-AF4E-B55D903DE710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5861691E-0DB9-42E2-AF4E-B55D903DE710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE77697-40C3-46CE-B4C3-849EE7DA78CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE77697-40C3-46CE-B4C3-849EE7DA78CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE77697-40C3-46CE-B4C3-849EE7DA78CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE77697-40C3-46CE-B4C3-849EE7DA78CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E43F1F1-1C9E-45F2-9ADD-5275A499CA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E43F1F1-1C9E-45F2-9ADD-5275A499CA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E43F1F1-1C9E-45F2-9ADD-5275A499CA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E43F1F1-1C9E-45F2-9ADD-5275A499CA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B941F671-4AEE-40CA-A0FC-B702C39132F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B941F671-4AEE-40CA-A0FC-B702C39132F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B941F671-4AEE-40CA-A0FC-B702C39132F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B941F671-4AEE-40CA-A0FC-B702C39132F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6FCCC3-E393-44D3-A8F5-21ACF3B93B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6FCCC3-E393-44D3-A8F5-21ACF3B93B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6FCCC3-E393-44D3-A8F5-21ACF3B93B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6FCCC3-E393-44D3-A8F5-21ACF3B93B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3906B3E5-44E6-41B1-9A02-5EC3E44CA5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3906B3E5-44E6-41B1-9A02-5EC3E44CA5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3906B3E5-44E6-41B1-9A02-5EC3E44CA5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3906B3E5-44E6-41B1-9A02-5EC3E44CA5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
